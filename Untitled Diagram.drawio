@@ -1,9 +1,60 @@
-<mxfile host="app.diagrams.net" modified="2024-03-19T11:29:42.222Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" version="24.0.7" etag="nzlFX_uQJxHFoX4mbZXZ" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-19T11:35:57.822Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="OMR3Euts9Qvqu3arTJS1" version="24.0.7" type="github">
   <diagram name="Page-1" id="fFz8fSGY6JRXcYfSdWLw">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="UdD8NCJMTehRYiqyKwsq-15" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="200" width="140" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="UdD8NCJMTehRYiqyKwsq-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="UdD8NCJMTehRYiqyKwsq-2" target="UdD8NCJMTehRYiqyKwsq-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="290" y="350" />
+              <mxPoint x="290" y="350" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UdD8NCJMTehRYiqyKwsq-2" value="&lt;font style=&quot;font-size: 19px;&quot;&gt;ESP32 (1)&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="200" width="120" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="UdD8NCJMTehRYiqyKwsq-5" value="&lt;font style=&quot;font-size: 19px;&quot;&gt;ESP32 (1)&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="200" width="120" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="UdD8NCJMTehRYiqyKwsq-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="UdD8NCJMTehRYiqyKwsq-6" target="UdD8NCJMTehRYiqyKwsq-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="540" y="350" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UdD8NCJMTehRYiqyKwsq-6" value="UART DATA Transfer" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UdD8NCJMTehRYiqyKwsq-11" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;MIC&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="240" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UdD8NCJMTehRYiqyKwsq-12" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;Speech To Text&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="290" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UdD8NCJMTehRYiqyKwsq-13" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;ChatGPT API&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="340" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UdD8NCJMTehRYiqyKwsq-14" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;Port to UART&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="395" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UdD8NCJMTehRYiqyKwsq-16" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="235" width="140" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="UdD8NCJMTehRYiqyKwsq-17" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;Take I/P from UART&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="275" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UdD8NCJMTehRYiqyKwsq-18" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;Text to Speech(audio.h)&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="325" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UdD8NCJMTehRYiqyKwsq-19" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;Speaker Output&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="385" width="120" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
