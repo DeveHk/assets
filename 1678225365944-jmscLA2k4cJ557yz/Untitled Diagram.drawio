@@ -1,9 +1,89 @@
-<mxfile host="app.diagrams.net" modified="2024-03-19T20:31:09.903Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" version="24.0.7" etag="-VWHcitSSqRPrLYK-1y2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-19T20:47:14.023Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="57wSHt0rWvliqQ8QMuv1" version="24.0.7" type="github">
   <diagram name="Page-1" id="mYSDgT7nEzw3p2JSqhui">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="769" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="HVyTWvveZY3b41k3lEc3-21" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="80" width="370" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="HVyTWvveZY3b41k3lEc3-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="HVyTWvveZY3b41k3lEc3-29" target="HVyTWvveZY3b41k3lEc3-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HVyTWvveZY3b41k3lEc3-1" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Hand gesture detection module&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="200" width="180" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="HVyTWvveZY3b41k3lEc3-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HVyTWvveZY3b41k3lEc3-4" target="HVyTWvveZY3b41k3lEc3-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HVyTWvveZY3b41k3lEc3-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HVyTWvveZY3b41k3lEc3-4" target="HVyTWvveZY3b41k3lEc3-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HVyTWvveZY3b41k3lEc3-4" value="&lt;p style=&quot;line-height: 130%;&quot;&gt;&lt;font style=&quot;font-size: 21px;&quot;&gt;Arduino Uno Rev3&lt;/font&gt;&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="200" width="180" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="HVyTWvveZY3b41k3lEc3-11" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="160" width="140" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="HVyTWvveZY3b41k3lEc3-7" value="Capturing Live Stream with camera" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HVyTWvveZY3b41k3lEc3-8" value="Detecting Hands with Mediapipe" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HVyTWvveZY3b41k3lEc3-9" value="Detecting Counts of fingers" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HVyTWvveZY3b41k3lEc3-10" value="Rendering coordinates and count to the frame" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HVyTWvveZY3b41k3lEc3-12" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="195" width="140" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="HVyTWvveZY3b41k3lEc3-13" value="Receiving Signal from port&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="215" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HVyTWvveZY3b41k3lEc3-14" value="Manipulating LED patterns based on signal" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="295" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HVyTWvveZY3b41k3lEc3-15" value="Sync the LEDs with gestures" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="375" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HVyTWvveZY3b41k3lEc3-17" value="" style="pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.miscellaneous.illuminating_bulb;" vertex="1" parent="1">
+          <mxGeometry x="390" y="100" width="60" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="HVyTWvveZY3b41k3lEc3-18" value="" style="pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.miscellaneous.illuminating_bulb;" vertex="1" parent="1">
+          <mxGeometry x="660" y="100" width="60" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="HVyTWvveZY3b41k3lEc3-19" value="" style="pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.miscellaneous.illuminating_bulb;" vertex="1" parent="1">
+          <mxGeometry x="570" y="100" width="60" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="HVyTWvveZY3b41k3lEc3-20" value="" style="pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.miscellaneous.illuminating_bulb;" vertex="1" parent="1">
+          <mxGeometry x="480" y="100" width="60" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="HVyTWvveZY3b41k3lEc3-22" value="LEDs" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="525" y="80" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HVyTWvveZY3b41k3lEc3-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.595;entryY=1.082;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="HVyTWvveZY3b41k3lEc3-4" target="HVyTWvveZY3b41k3lEc3-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HVyTWvveZY3b41k3lEc3-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.135;entryY=0.889;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="HVyTWvveZY3b41k3lEc3-4" target="HVyTWvveZY3b41k3lEc3-21">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="570" y="180" />
+              <mxPoint x="420" y="180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HVyTWvveZY3b41k3lEc3-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="HVyTWvveZY3b41k3lEc3-1" target="HVyTWvveZY3b41k3lEc3-29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="350" y="330" as="sourcePoint" />
+            <mxPoint x="480" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HVyTWvveZY3b41k3lEc3-29" value="CON3 (USB)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="320" width="90" height="20" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
