@@ -1,19 +1,19 @@
-<mxfile host="app.diagrams.net" modified="2024-06-15T13:45:59.657Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="kTsy-xk1Ckz3mDMyWWee" version="24.5.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-15T13:46:47.960Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="s2H0PX0H6-6WLy4aUU-0" version="24.5.4" type="github">
   <diagram name="Page-1" id="Cg4xTgRI6mqnFLZNEy1M">
-    <mxGraphModel dx="1323" dy="887" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="993" dy="665" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="FJv6VXYNNxlVjKpqbIwA-7" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" vertex="1" parent="1">
+        <mxCell id="FJv6VXYNNxlVjKpqbIwA-7" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" parent="1" vertex="1">
           <mxGeometry x="150" y="30" width="150" height="350" as="geometry" />
         </mxCell>
-        <mxCell id="FJv6VXYNNxlVjKpqbIwA-5" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" vertex="1" parent="1">
+        <mxCell id="FJv6VXYNNxlVjKpqbIwA-5" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" parent="1" vertex="1">
           <mxGeometry x="600" y="30" width="150" height="350" as="geometry" />
         </mxCell>
         <mxCell id="-Pz2cjw5rAa8pvouhSm4-2" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=7;dashed=1;dashPattern=8 8;" parent="1" vertex="1">
           <mxGeometry x="316.25" y="30" width="258.75" height="350" as="geometry" />
         </mxCell>
-        <mxCell id="FJv6VXYNNxlVjKpqbIwA-2" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;arcSize=13;dashPattern=8 8;" vertex="1" parent="1">
+        <mxCell id="FJv6VXYNNxlVjKpqbIwA-2" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;arcSize=13;dashPattern=8 8;" parent="1" vertex="1">
           <mxGeometry x="345.63" y="70" width="200" height="140" as="geometry" />
         </mxCell>
         <mxCell id="-Pz2cjw5rAa8pvouhSm4-6" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;arcSize=11;dashPattern=8 8;" parent="1" vertex="1">
@@ -73,25 +73,20 @@
         <mxCell id="-Pz2cjw5rAa8pvouhSm4-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.003;entryY=0.824;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="Zs78QdVPnSJhO5qqhby9-2" target="Zs78QdVPnSJhO5qqhby9-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="FJv6VXYNNxlVjKpqbIwA-1" value="Docker Container 2" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="FJv6VXYNNxlVjKpqbIwA-1" value="Docker Container 2" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="400.31" y="330" width="79.37" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="FJv6VXYNNxlVjKpqbIwA-4" value="Docker Container 1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="FJv6VXYNNxlVjKpqbIwA-4" value="Docker Container 1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="394.99" y="80" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="FJv6VXYNNxlVjKpqbIwA-6" value="MongoDB Atlas" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="FJv6VXYNNxlVjKpqbIwA-6" value="MongoDB Atlas" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="630" y="70" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="FJv6VXYNNxlVjKpqbIwA-8" value="Browser" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="FJv6VXYNNxlVjKpqbIwA-8" value="Browser" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="180" y="70" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="FJv6VXYNNxlVjKpqbIwA-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.025;entryY=0.08;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Zs78QdVPnSJhO5qqhby9-3" target="Zs78QdVPnSJhO5qqhby9-4">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="570" y="137" />
-              <mxPoint x="628" y="137" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="_MFsMvTrALqZrUIzhoCF-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.178;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Zs78QdVPnSJhO5qqhby9-3" target="Zs78QdVPnSJhO5qqhby9-4">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
